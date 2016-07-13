@@ -2,7 +2,7 @@
 
 ## Outline
 - [Learning objectives](#learning-objectives)
-- [What is CSS?](#what-is-css?)
+- [What is CSS?](#what-is-css)
 
 ## Learning objectives
 - Apply CSS styles to HTML content by selecting elements and manipulating their attributes.
