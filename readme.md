@@ -2,6 +2,7 @@
 
 ## Outline
 - [Learning objectives](#learning-objectives)
+- [What is CSS?](#what-is-css)
 
 ## Learning objectives
 - Apply CSS styles to HTML content by selecting elements and manipulating their attributes.
@@ -12,15 +13,18 @@
 - Identify the components of the box model.
 - Apply knowledge of the box model to adjust spacing between and around elements.
 
-## Opening Framing: The Power of CSS (5 min / 10:00)
+## What is CSS
 
-To start this lesson, I want to mosey on over to my favorite website, [Twitter.com/GA_DC](https://twitter.com/GA_DC). It's pretty great. It's pretty fancy. But what would it be without CSS? Take 1 minute to talk with the people around you about how this wonder of the modern web would look different without CSS, and how that would impact your interactive with the site.
+To start this lesson, I want to mosey on over to my favorite website of all time, [Yahoo.com](https://www.yahoo.com). It's pretty great. It's pretty fancy. But what would it be without CSS? Take 1 minute to talk with the people around you about how this wonder of the modern web would look different without CSS, and how that would impact your interactive with the site.
 
 > ST-WG: Share some ideas, then mute the stylesheets in Dev Tools and discuss anything surprising.
+### ST-WG
+* Share some ideas, then mute the stylesheets in Dev Tools and discuss anything surprising.
 
 CSS is powerful. There is such a wide breadth of things to learn about CSS and honestly, you could probably teach a whole 12 weeks just its capabilities, nuances, and subtleties. So, the goal of this class isn't to do a rundown of every possible CSS selector, but to have you guys walk away with a solid foundation in how to approach the task of styling your sites. As you use it consistently you realize that, while sometimes [frustrating]( http://gph.is/1heneJM?tc=1), CSS provides a powerful toolkit for making your UI more usuable, marketable, and generally awesome!
 
->Fist of Five: How confident are you about CSS? Five is, "Move over, I could teach this class myself". One is more like, "C-what-what, now?"
+### Fist to Five
+How confident are you about CSS? Five is, "Move over, I could teach this class myself". One is more like, "C-what-what, now?"
 
 ## In-line vs head vs stylesheets (20 min / 10:05)
 > You're welcome to code along, but it may be better just to follow along for the first bit. The second half of call will be all hand-ons, and the notes for everything will be available in lesson plan
