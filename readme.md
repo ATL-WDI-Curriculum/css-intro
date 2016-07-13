@@ -1,15 +1,16 @@
 # CSS
 
-## LO's
-- Construct a CSS rule using selectors, declarations, properties, and values
-- Articulate the pros and cons of stylesheets, styles in the head, and in-line styles
-- Define "cascading" in the context of CSS specificity
-- Style the size, color, border, text, and font of all elements of a given tag on a page
-- Demonstrate the use of class and ID selectors to target specific element(s)
-- Distinguish between block and inline display values
-- Identify the components of the box model
-- Differentiate between the border-box and content-box values for box-sizing
-- Apply knowledge of the box model to adjust spacing between and around elements on a page
+## Outline
+- [Learning objectives](#learning-objectives)
+
+## Learning objectives
+- Apply CSS styles to HTML content by selecting elements and manipulating their attributes.
+- Explain 3 ways CSS can be applied to the page, and the pros and cons of different ways.
+- Demonstrate understanding of *how* CSS rules are applied, and in what order. (Why is it named "CSS"?)
+- Combine CSS selectors to target certain elements or groups of elements on the page.
+- Distinguish between block and inline display values.
+- Identify the components of the box model.
+- Apply knowledge of the box model to adjust spacing between and around elements.
 
 ## Opening Framing: The Power of CSS (5 min / 10:00)
 
