@@ -2,7 +2,7 @@
 
 ## Outline
 - [Learning objectives](#learning-objectives)
-- [What is CSS?](#what-is-css)
+- [What is CSS?](#what-is-css?)
 
 ## Learning objectives
 - Apply CSS styles to HTML content by selecting elements and manipulating their attributes.
@@ -13,11 +13,10 @@
 - Identify the components of the box model.
 - Apply knowledge of the box model to adjust spacing between and around elements.
 
-## What is CSS
+## What is CSS?
 
 To start this lesson, I want to mosey on over to my favorite website of all time, [Yahoo.com](https://www.yahoo.com). It's pretty great. It's pretty fancy. But what would it be without CSS? Take 1 minute to talk with the people around you about how this wonder of the modern web would look different without CSS, and how that would impact your interactive with the site.
 
-> ST-WG: Share some ideas, then mute the stylesheets in Dev Tools and discuss anything surprising.
 ### ST-WG
 * Share some ideas, then mute the stylesheets in Dev Tools and discuss anything surprising.
 
