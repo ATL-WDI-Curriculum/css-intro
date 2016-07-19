@@ -57,7 +57,7 @@ Let's throw some dummy content into HTML inside our `index.html`:
 So one way we can style elements in HTML is in the tag itself. These are called inline-styles:
 
 ```html
-<p style="background:blue;"></p>
+<p style="background: blue;">Lorem ipsum...</p>
 ```
 
 ### T & T
@@ -77,7 +77,7 @@ The next approach to implementing a style is to put the styling in the `<head>`:
   </style>
 </head>
 ```
-> You've seen this before, but I want to highlight some syntax here. From p until the ending curly brace is a CSS rule. The p in this code is what's called the selector. The background  in the code is the property. Finally blue is the value.
+> You've seen this before, but I want to highlight some syntax here. From `p` until the ending curly brace is a CSS rule. The `p` in this code is what's called the **selector**. The background in the code is the **property**. Finally, blue is the **value**.
 
 This is a bit better. I feel less gross. But feel kinda weird about this one, too. Why might that be? (ST-WG)
 
@@ -100,12 +100,12 @@ In our `index.html` let's go ahead and link to that stylesheet in the `<head>`:
 
 In `styles.css`:
 ```css
-p{
+p {
   background:blue;
 }
 ```
 
-Ahh, much better. You might be asking yourself, "Self? Isn't this a lot more work?" And you might be right initially. But we're talking about 1 `<p>` right now. What if we're talking about 100 `<p>`'s and now those elements were spread across multiple web pages. Now all of a sudden this last method is less work.
+Ahh, much better. You might be asking yourself, "Self? Isn't this a lot more work?" And you might be right initially. But we're talking about 1 `<p>` right now. What if we're talking about 100 `<p>` elements and now those elements were spread across multiple web pages. Now all of a sudden this last method is less work.
 
 
 ### Separation of Concerns
@@ -145,15 +145,15 @@ The first thing I want to do is make it so all elements with the class of "red" 
 Awesome, but I think I want just the `<p>` elements with that class name to have a background of red. So in `styles.css`:
 
 ```css
-p.red{
+p.red {
   background: red;
 }
 ```
 
-Finally to select an element with an id you use `#`. I'm going to change the background color of the p element with class "green" in our `styles.css`:
+Finally, to select an element with an id, use `#`. I'm going to change the background color property of the `<p>` element with class "green" in our `styles.css`:
 
 ```css
-#green{
+#green {
   background: green;
 }
 ```
@@ -180,13 +180,13 @@ In this example the elements that have the class red, will ultimately have a bac
 
 The following list of selector types is by increasing specificity:
 
-- Universal selectors (e.g., '\*')
-- Type selectors (e.g., h1)
-- Class selectors (e.g., .example)
-- Attributes selectors (e.g., [type="radio"])
-- Pseudo-classes (e.g., :hover)
-- ID selectors (e.g., #example)
-- Inline style (e.g., style="font-weight:bold")
+- Universal selectors (e.g., `*`)
+- Type selectors (e.g., `h1`)
+- Class selectors (e.g., `.example`)
+- Attributes selectors (e.g., `[type="radio"]`)
+- Pseudo-classes (e.g., `:hover`)
+- ID selectors (e.g., `#example`)
+- Inline style (e.g., `style="font-weight:bold"`)
 
 You can read more about CSS specificity [here](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
 You can access a CSS specificty calculator [here](http://specificity.keegan.st)
