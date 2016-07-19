@@ -101,7 +101,7 @@ In our `index.html` let's go ahead and link to that stylesheet in the `<head>`:
 In `styles.css`:
 ```css
 p {
-  background:blue;
+  background: blue;
 }
 ```
 
