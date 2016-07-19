@@ -198,6 +198,8 @@ You can access a CSS specificty calculator [here](http://specificity.keegan.st)
 
 Any HTML element can be considered a box, and so the box model applies to all HTML elements. If you select an element prescribe it a height and width, the content itself will be that height and width.
 
+###### Also check out [this box model recap on MDN](https://developer.mozilla.org/en-US/Learn/CSS/Styling_boxes/Box_model_recap).
+
 What the size doesn't include:
 - padding
 - border
@@ -271,7 +273,7 @@ Man, there's alot of them. We've seen many just in this lesson thus far. There a
 I think we can knock out an easy one early on. I can see by looking at that page that the background color and text color are mostly similar. Additionally centering everything and giving it a little bit of a buffer with the padding/border/margin on the edges will be nice. Let's go ahead and change that in `styles.css`:
 
 ```css
-body{
+body {
   background: #444;
   color: #fff;
   border: 5px solid #777;
@@ -284,7 +286,7 @@ body{
 Alright, just with 5 properties already looking a lot better! I think we can do another quick fix by just centering the text for the header and footer.
 
 ```css
-header, footer{
+header, footer {
   text-align: center;
 }
 ```
