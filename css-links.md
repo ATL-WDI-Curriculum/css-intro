@@ -2,6 +2,9 @@
 
 ## CSS overview
 
+#### [Use CSS to solve common problems](https://developer.mozilla.org/en-US/Learn/CSS/Howto)
+This is a big list with lots of useful stuff
+
 #### [CSS coding techniques](https://hacks.mozilla.org/2016/05/css-coding-techniques/)
 This post by Belén Albeza on the Mozilla Hacks blog describes some best practices for CSS.
 
